@@ -4,7 +4,7 @@ Gem::Specification.new do |spec|
   spec.name          = "jekyll-nagymaros"
   spec.version       = "3.4.0"
   spec.authors       = ["piazzai"]
-  spec.email         = ["42124135+piazzai@users.noreply.github.com"]
+  spec.email         = ["hello@piazzai.addy.io"]
 
   spec.summary       = "Jekyll theme for a conference website"
   spec.homepage      = "https://github.com/piazzai/jekyll-nagymaros"
