@@ -1,0 +1,26 @@
+groups:
+  - title: Organizing committee
+    sort: false
+    columns: false
+    members:
+      - name: Sam
+        surname: Moradzadeh
+        affil: Penn State University
+      - name: Andrew M.
+        surname: Sherrill
+        affil: Emory University
+      - name: Rosa I.
+        surname: Arriaga
+        affil: Georgia Institute of Technology
+      - name: Christopher W.
+        surname: Wiese
+        affil: Georgia Institute of Technology
+      - name: Jung Ah (Julie)
+        surname: Lee
+        affil: Georgia Institute of Technology
+      - name: Sadie K.
+        surname: Hogge
+        affil: Georgia Institute of Technology
+      - name: Saeed
+        surname: Abdullah
+        affil: Penn State University
