@@ -1,0 +1,7 @@
+buttons:
+  - text: View Workshop Proposal
+    url: "#"
+    disabled: false
+  - text: Submit a Paper
+    url: "#"
+    disabled: true
