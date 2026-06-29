@@ -1,0 +1,10 @@
+legend:
+  title: Legend
+  categories:
+    - name: TBD
+      color: blue-6
+days:
+  - name: Workshop Program — September 27, 2026
+    events:
+      - time: TBD
+        title: Program will be posted here closer to the event date.
