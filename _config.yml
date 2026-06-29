@@ -1,0 +1,20 @@
+title: "Human-AI Teaming: Useful Framework or Empty Metaphor?"
+description: "HAT 2026 | HCOMP/CI 2026 Workshop | September 27, 2026 | Washington D.C. Area"
+baseurl: /
+url: hcomp-ci2026-hat.github.io
+permalink: pretty
+remote_theme: "piazzai/jekyll-nagymaros"
+home: /
+copyright: HAT 2026 Workshop Organizers
+indexing: true
+exclude:
+  - LICENSE
+  - README.md
+  - Gemfile
+  - vendor/
+plugins:
+  - jekyll-seo-tag
+  - jekyll-sitemap
+  - jekyll-remote-theme
+sass:
+  sourcemap: never
