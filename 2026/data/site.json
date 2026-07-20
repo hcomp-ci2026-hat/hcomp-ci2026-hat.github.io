@@ -1,0 +1,23 @@
+{
+  "edition": "2026",
+  "workshopName": "HAT Workshop",
+  "workshopFullName": "Workshop on Human-AI Teaming",
+  "tagline": "What work does the teaming construct actually do, and for whom?",
+  "colocated": "Co-located with HCOMP/CI 2026",
+  "conferenceUrl": "https://hcomp.acm.org/2026/",
+  "dates": {
+    "workshop": "September 27, 2026",
+    "submissionDeadline": "2026-08-07T23:59:00-12:00",
+    "submissionDeadlineDisplay": "August 7, 2026, 23:59 AoE",
+    "notificationDate": "August 14, 2026",
+    "earlyBirdRegistration": "August 22, 2026"
+  },
+  "venue": {
+    "name": "Virginia Tech Academic Building One",
+    "city": "Alexandria, VA (Washington, DC metro)",
+    "address": "3625 Potomac Ave, Alexandria, VA 22305, USA",
+    "conferenceVenueUrl": "https://hcomp.acm.org/2026/"
+  },
+  "submissionLink": "https://openreview.net/group?id=HAT2026",
+  "registrationLink": "https://hcomp.acm.org/2026/"
+}

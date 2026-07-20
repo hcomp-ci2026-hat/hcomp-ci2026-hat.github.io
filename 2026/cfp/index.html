@@ -1,0 +1,219 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+
+  <script>
+    (function () {
+      var t = localStorage.getItem('hat-theme');
+      if (t === 'dark' || (!t && window.matchMedia('(prefers-color-scheme:dark)').matches)) {
+        document.documentElement.setAttribute('data-theme', 'dark');
+      }
+    })();
+  </script>
+
+  <title>Call for Participation — HAT 2026</title>
+  <meta name="description"
+    content="Join HAT 2026: submit a position paper, prototype, or idea for feedback — or RSVP to participate in the discussion. No submission required to attend.">
+
+  <link rel="stylesheet" href="/shared/styles.css">
+  <link rel="stylesheet" href="/shared/print.css" media="print">
+</head>
+
+<body>
+
+  <a href="#main" class="skip-link">Skip to main content</a>
+
+  <!-- Deadline Bar -->
+  <div class="deadline-bar" role="banner" data-deadline="2026-08-07T23:59:00-12:00">
+    <div class="deadline-bar-inner">
+      <span class="deadline-label"><strong>Submission deadline:</strong> August&nbsp;7,&nbsp;2026 &mdash;
+        23:59&nbsp;AoE</span>
+      <span class="deadline-short"><strong>Deadline:</strong> Aug&nbsp;7 AoE</span>
+      <span class="deadline-countdown" aria-live="polite">Calculating…</span>
+    </div>
+  </div>
+
+  <!-- Header -->
+  <header class="site-header">
+    <div class="header-inner">
+      <a href="/2026/" class="site-logo" aria-label="HAT Workshop 2026 — Home">HAT<span
+          class="logo-accent">'26</span></a>
+      <div class="header-right">
+        <button class="mobile-menu-toggle" aria-expanded="false" aria-controls="site-nav"
+          aria-label="Open navigation menu">
+          <svg viewBox="0 0 24 24" aria-hidden="true">
+            <line x1="3" y1="6" x2="21" y2="6" />
+            <line x1="3" y1="12" x2="21" y2="12" />
+            <line x1="3" y1="18" x2="21" y2="18" />
+          </svg>
+        </button>
+        <nav class="site-nav" id="site-nav" aria-label="Primary">
+          <a href="/2026/">Home</a>
+          <a href="/2026/cfp/" aria-current="page">Participate</a>
+          <a href="/2026/attend/">Attend</a>
+          <a href="/2026/organizers/">Organizers</a>
+          <a href="/2026/schedule/">Schedule</a>
+        </nav>
+        <button class="theme-toggle" aria-label="Switch to dark mode">
+          <svg class="icon-light" viewBox="0 0 24 24" aria-hidden="true">
+            <circle cx="12" cy="12" r="5" />
+            <line x1="12" y1="1" x2="12" y2="3" />
+            <line x1="12" y1="21" x2="12" y2="23" />
+            <line x1="4.22" y1="4.22" x2="5.64" y2="5.64" />
+            <line x1="18.36" y1="18.36" x2="19.78" y2="19.78" />
+            <line x1="1" y1="12" x2="3" y2="12" />
+            <line x1="21" y1="12" x2="23" y2="12" />
+            <line x1="4.22" y1="19.78" x2="5.64" y2="18.36" />
+            <line x1="18.36" y1="5.64" x2="19.78" y2="4.22" />
+          </svg>
+          <svg class="icon-dark" viewBox="0 0 24 24" aria-hidden="true" style="display:none">
+            <path d="M21 12.79A9 9 0 1 1 11.21 3 7 7 0 0 0 21 12.79z" />
+          </svg>
+        </button>
+      </div>
+    </div>
+  </header>
+
+  <main id="main">
+
+    <section class="page-title-section">
+      <h1>Call for Participation</h1>
+      <p class="page-subtitle">Argue, build, respond. There's more than one way to be part of this.</p>
+    </section>
+
+    <!-- Section 1: Invitation -->
+    <section class="content-section" aria-labelledby="invitation-heading">
+      <h2 id="invitation-heading">Invitation</h2>
+      <p>
+        We invite and welcome researchers, practitioners, designers, and students across HCI, AI, cognitive science,
+        organizational behavior, policy, and law — and anyone who has ever had to trust, distrust, or work alongside an
+        AI system — to join us for a day of argument, hands-on exploration, and collective synthesis.
+      </p>
+
+      <h3>What we're here to argue about</h3>
+      <ul class="argue-list" role="list">
+        <li>Is "teaming" the right frame for human–AI collaboration, or does it obscure more than it reveals?</li>
+        <li>When we actually put people in front of a working system, do the dimensions of "teaming" hold up — or fall
+          apart?</li>
+        <li>If "teaming" doesn't hold, what should replace it, and who gets to decide?</li>
+      </ul>
+    </section>
+
+    <!-- Section 2: How to Participate -->
+    <section class="content-section" aria-labelledby="how-heading">
+      <h2 id="how-heading">How to Participate</h2>
+
+      <div class="path-grid">
+
+        <div class="path-card">
+          <h3>Want to attend?</h3>
+          <p>Join the discussion, sit in on the panels and speaker sessions, and take part in the debate. No submission
+            required.</p>
+          <a href="https://forms.gle/wQb7F82hEGXhg1jz5" class="cta-button cta-primary" target="_blank"
+            rel="noopener noreferrer">RSVP to Attend →</a>
+        </div>
+
+        <div class="path-card">
+            <h3>Want to share something?</h3>
+            <p>Submit an artifact — a position paper, a prototype, or an idea at any stage — and get real feedback.
+              We'll
+              give you a lightning talk and a room full of people ready to respond.</p>
+            <a href="https://forms.gle/vtk4HUzhjVu3d3Za8" class="cta-button cta-primary" target="_blank"
+              rel="noopener noreferrer">Submit an Artifact →</a>
+          </div>
+
+        </div>
+
+        <!-- Decision Flowchart -->
+        <h3 style="margin-top: var(--space-12); text-align: center;">Not sure which path is right for you?</h3>
+
+        <div class="flowchart" role="img" aria-label="Decision flowchart for choosing how to participate">
+
+          <!-- Question 1 -->
+          <div class="flow-node flow-question">
+            Do you have a paper, prototype, or idea you want feedback on?
+          </div>
+
+          <div class="flow-connector">
+            <!-- YES branch -->
+            <div class="flow-branch">
+              <div class="flow-arrow flow-arrow--yes">Yes</div>
+              <div class="flow-node flow-answer flow-answer--accent">
+                <strong>→ Submit</strong>
+                You'll get a lightning talk slot and structured group feedback.
+              </div>
+            </div>
+
+            <!-- NO branch -->
+            <div class="flow-branch">
+              <div class="flow-arrow flow-arrow--no">No</div>
+              <div class="flow-node flow-question" style="font-size: var(--text-base);">
+                Do you want to speak or argue in the debate?
+              </div>
+
+              <div class="flow-arrow flow-arrow--down">&nbsp;</div>
+
+              <div class="flow-node flow-answer">
+                <strong>→ RSVP</strong>
+                RSVP gets you into all discussions and debate sessions. Submitting just guarantees a dedicated slot.
+              </div>
+            </div>
+          </div>
+
+          <!-- Bottom fallthrough -->
+          <div class="flow-arrow flow-arrow--down" style="margin-top: var(--space-4);">&nbsp;</div>
+
+          <div class="flow-node flow-answer">
+            <strong>Just want to observe and join the conversation?</strong>
+            → RSVP.
+          </div>
+
+        </div>
+
+        <p style="text-align: center; color: var(--color-muted); margin-top: var(--space-6);">
+          Still unsure? Email us at <a href="mailto:samzm@psu.edu">samzm@psu.edu</a> and we'll help
+          you figure it out.
+        </p>
+    </section>
+
+    <!-- Section 3: Timeline -->
+    <section class="content-section" aria-labelledby="timeline-heading">
+      <h2 id="timeline-heading">Timeline</h2>
+      <ul class="dates-list" role="list">
+        <li>
+          <span class="date-label font-mono">August 7, 2026</span>
+          <span class="date-event">Artifact submission deadline</span>
+        </li>
+        <li>
+          <span class="date-label font-mono">August 14, 2026</span>
+          <span class="date-event">Notification to submitters</span>
+        </li>
+        <li>
+          <span class="date-label font-mono">September 27, 2026</span>
+          <span class="date-event">RSVP closes</span>
+        </li>
+        <li>
+          <span class="date-label font-mono">September 27, 2026</span>
+          <span class="date-event">Workshop day</span>
+        </li>
+      </ul>
+    </section>
+
+  </main>
+
+  <footer class="site-footer">
+    <div class="footer-inner">
+      <span class="footer-copy">&copy; 2026 HAT Workshop.</span>
+      <ul class="footer-links" role="list">
+        <li><a href="/2026/">HAT 2026</a></li>
+      </ul>
+    </div>
+  </footer>
+
+  <script src="/shared/nav.js"></script>
+</body>
+
+</html>

@@ -1,0 +1,87 @@
+/* ============================================================
+   HAT Workshop — Print Stylesheet
+   Applied via @media print or <link media="print">
+   ============================================================ */
+
+@media print {
+  /* Hide interactive / navigational elements */
+  .site-header,
+  .deadline-bar,
+  .site-footer,
+  .theme-toggle,
+  .mobile-menu-toggle,
+  .skip-link,
+  .cta-button,
+  nav {
+    display: none !important;
+  }
+
+  /* Force light theme */
+  :root,
+  [data-theme="dark"] {
+    --color-bg: #ffffff;
+    --color-text: #000000;
+    --color-heading: #000000;
+    --color-muted: #444444;
+  }
+
+  body {
+    background: #ffffff !important;
+    color: #000000 !important;
+    font-size: 12pt !important;
+    line-height: 1.5 !important;
+  }
+
+  /* Remove decorative properties */
+  * {
+    background: transparent !important;
+    box-shadow: none !important;
+    text-shadow: none !important;
+  }
+
+  /* Expand links to show URLs */
+  a[href^="http"]::after {
+    content: " (" attr(href) ")";
+    font-size: 0.85em;
+    font-weight: normal;
+    color: #444;
+    word-break: break-all;
+  }
+
+  /* Don't expand internal nav links */
+  nav a::after,
+  .site-header a::after {
+    content: none !important;
+  }
+
+  /* Ensure content uses full width */
+  .content-section,
+  main {
+    max-width: 100% !important;
+    padding: 0 !important;
+    margin: 0 !important;
+  }
+
+  /* Prevent page breaks inside key blocks */
+  h1, h2, h3, h4 {
+    page-break-after: avoid;
+    break-after: avoid;
+  }
+
+  table, figure, .schedule-entry {
+    page-break-inside: avoid;
+    break-inside: avoid;
+  }
+
+  /* Ensure tables print cleanly */
+  table {
+    border-collapse: collapse;
+    width: 100%;
+  }
+
+  th, td {
+    border: 1px solid #ccc;
+    padding: 6pt 8pt;
+    text-align: left;
+  }
+}

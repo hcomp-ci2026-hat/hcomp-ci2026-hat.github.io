@@ -1,0 +1,36 @@
+{
+  "tentative": true,
+  "date": "September 27, 2026",
+  "timezone": "Eastern Time",
+  "sessions": [
+    { "time": "9:00 AM – 9:30 AM", "title": "Opening Remarks", "type": "ceremony" },
+    { "time": "9:30 AM – 10:30 AM", "title": "Keynote Speaker 1", "speaker": "TBD", "type": "keynote" },
+    { "time": "10:30 AM – 11:00 AM", "title": "Speed Networking and Coffee Break", "type": "break" },
+    {
+      "time": "11:00 AM – 12:30 PM",
+      "title": "Workshop Paper Feedback Sessions",
+      "type": "papers",
+      "format": [
+        "3-minute Lightning Talk (per paper)",
+        "Paper group roundtable discussion (2 × 20-minute sessions)",
+        "Presenting feedback summary"
+      ],
+      "note": "Accepted papers to be announced after notification."
+    },
+    { "time": "12:30 PM – 1:30 PM", "title": "Networking Lunch with Workshop Attendees", "type": "break" },
+    {
+      "time": "1:30 PM – 3:30 PM",
+      "title": "Group Discussion and Brainstorming with Attendees",
+      "type": "panel",
+      "topics": [
+        "What does \"teaming\" let researchers, designers, and end-users do, and where does it mislead them?",
+        "Human–AI teaming in high-stakes and clinical contexts",
+        "Alternatives to teaming: augmentation, delegation, and scaffolding",
+        "Accountability, agency, and asymmetry in human–AI teams"
+      ]
+    },
+    { "time": "3:30 PM – 3:45 PM", "title": "Coffee Break", "type": "break" },
+    { "time": "3:45 PM – 4:45 PM", "title": "Keynote Speaker 2", "speaker": "TBD", "type": "keynote" },
+    { "time": "4:45 PM – 5:00 PM", "title": "Closing Remarks and Best Paper Award", "type": "ceremony" }
+  ]
+}

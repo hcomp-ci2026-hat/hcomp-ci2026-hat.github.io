@@ -1,0 +1,229 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+
+  <!-- Prevent dark-mode flash -->
+  <script>
+    (function () {
+      var t = localStorage.getItem('hat-theme');
+      if (t === 'dark' || (!t && window.matchMedia('(prefers-color-scheme:dark)').matches)) {
+        document.documentElement.setAttribute('data-theme', 'dark');
+      }
+    })();
+  </script>
+
+  <title>HAT 2026 — Workshop on Human-AI Teaming</title>
+  <meta name="description"
+    content="The HAT 2026 Workshop examines what work the human-AI teaming construct actually does and for whom. Co-located with HCOMP/CI 2026 at Virginia Tech.">
+
+  <link rel="stylesheet" href="/shared/styles.css">
+  <link rel="stylesheet" href="/shared/print.css" media="print">
+</head>
+
+<body>
+
+  <!-- Skip link -->
+  <a href="#main" class="skip-link">Skip to main content</a>
+
+  <!-- Deadline Bar -->
+  <div class="deadline-bar" role="banner" data-deadline="2026-08-07T23:59:00-12:00">
+    <div class="deadline-bar-inner">
+      <span class="deadline-label">
+        <strong>Submission deadline:</strong> August&nbsp;7,&nbsp;2026 &mdash; 23:59&nbsp;AoE
+      </span>
+      <span class="deadline-short">
+        <strong>Deadline:</strong> Aug&nbsp;7 AoE
+      </span>
+      <span class="deadline-countdown" aria-live="polite">Calculating…</span>
+    </div>
+  </div>
+
+  <!-- Site Header -->
+  <header class="site-header">
+    <div class="header-inner">
+      <a href="/2026/" class="site-logo" aria-label="HAT Workshop 2026 — Home">
+        HAT<span class="logo-accent">'26</span>
+      </a>
+
+      <div class="header-right">
+        <button class="mobile-menu-toggle" aria-expanded="false" aria-controls="site-nav"
+          aria-label="Open navigation menu">
+          <svg viewBox="0 0 24 24" aria-hidden="true">
+            <line x1="3" y1="6" x2="21" y2="6" />
+            <line x1="3" y1="12" x2="21" y2="12" />
+            <line x1="3" y1="18" x2="21" y2="18" />
+          </svg>
+        </button>
+
+        <nav class="site-nav" id="site-nav" aria-label="Primary">
+          <a href="/2026/" aria-current="page">Home</a>
+          <a href="/2026/cfp/">Participate</a>
+          <a href="/2026/attend/">Attend</a>
+          <a href="/2026/organizers/">Organizers</a>
+          <a href="/2026/schedule/">Schedule</a>
+        </nav>
+
+        <button class="theme-toggle" aria-label="Switch to dark mode">
+          <svg class="icon-light" viewBox="0 0 24 24" aria-hidden="true">
+            <circle cx="12" cy="12" r="5" />
+            <line x1="12" y1="1" x2="12" y2="3" />
+            <line x1="12" y1="21" x2="12" y2="23" />
+            <line x1="4.22" y1="4.22" x2="5.64" y2="5.64" />
+            <line x1="18.36" y1="18.36" x2="19.78" y2="19.78" />
+            <line x1="1" y1="12" x2="3" y2="12" />
+            <line x1="21" y1="12" x2="23" y2="12" />
+            <line x1="4.22" y1="19.78" x2="5.64" y2="18.36" />
+            <line x1="18.36" y1="5.64" x2="19.78" y2="4.22" />
+          </svg>
+          <svg class="icon-dark" viewBox="0 0 24 24" aria-hidden="true" style="display:none">
+            <path d="M21 12.79A9 9 0 1 1 11.21 3 7 7 0 0 0 21 12.79z" />
+          </svg>
+        </button>
+      </div>
+    </div>
+  </header>
+
+  <!-- Main Content -->
+  <main id="main">
+
+    <!-- Hero -->
+    <section class="hero" aria-labelledby="hero-title">
+      <span class="hero-overline">HCOMP/CI 2026 Workshop · September 27, 2026 · Alexandria, VA</span>
+      <h1 id="hero-title">Human-AI Teaming</h1>
+      <p class="hero-tagline">What work does the teaming construct actually do, and for whom?</p>
+
+      <div class="hero-meta">
+        <div class="hero-meta-item">
+          <span class="hero-meta-label">Submission Deadline</span>
+          <span>August 7, 2026 — 23:59 AoE</span>
+        </div>
+        <div class="hero-meta-item">
+          <span class="hero-meta-label">Notification</span>
+          <span>August 14, 2026</span>
+        </div>
+        <div class="hero-meta-item">
+          <span class="hero-meta-label">Workshop Date</span>
+          <span>September 27, 2026</span>
+        </div>
+      </div>
+
+      <div class="hero-actions">
+        <a href="/2026/cfp/" class="cta-button cta-primary">Participate →</a>
+        <a href="/2026/attend/" class="cta-button cta-secondary">Venue &amp; Travel</a>
+      </div>
+    </section>
+
+    <!-- About -->
+    <section class="content-section" aria-labelledby="about-heading">
+      <h2 id="about-heading">About the Workshop</h2>
+      <p>
+        "Human-AI teaming" has become one of the most widely invoked concepts in AI research, design, and policy. Yet
+        beneath the surface of this appealing phrase lies a set of unresolved questions that the research community has
+        largely deferred. Rather than asking whether teaming is the correct term, this workshop asks a more generative
+        question: <strong>what work does the teaming construct actually do, and for whom?</strong>
+      </p>
+      <p>
+        For researchers, it may offer a frame for studying coordination and division of labor. For designers, it may
+        suggest interaction structures that go beyond tool use. For end-users, it may set expectations — helpful or
+        misleading — about agency, accountability, and trust.
+      </p>
+      <p>
+        We bring together researchers from human–computer interaction, cognitive science, clinical studies, and AI to
+        examine the functions and limits of the teaming concept, compare it against alternative framings such as
+        augmentation, delegation, and scaffolding, and work toward a more precise vocabulary for describing and
+        designing expert–AI collaboration.
+      </p>
+      <p>
+        The workshop is co-located with <strong><a href="https://hcomp.acm.org/2026/">HCOMP/CI 2026</a></strong> at
+        Virginia Tech (near Washington,&nbsp;DC), offering a full day of keynotes, paper feedback sessions, group
+        discussions, and structured brainstorming.
+      </p>
+    </section>
+
+    <!-- Key Dates -->
+    <section class="content-section" aria-labelledby="dates-heading">
+      <h2 id="dates-heading">Key Dates</h2>
+      <ul class="dates-list" role="list">
+        <li>
+          <span class="date-label font-mono">Aug 7, 2026</span>
+          <span class="date-event">Paper submission deadline (23:59 AoE)</span>
+        </li>
+        <li>
+          <span class="date-label font-mono">Aug 14, 2026</span>
+          <span class="date-event">Notification to authors</span>
+        </li>
+        <li>
+          <span class="date-label font-mono">Aug 22, 2026</span>
+          <span class="date-event">Conference early-bird registration</span>
+        </li>
+        <li>
+          <span class="date-label font-mono">Sep 27, 2026</span>
+          <span class="date-event">Workshop day at HCOMP/CI 2026, Virginia Tech</span>
+        </li>
+      </ul>
+    </section>
+
+
+    <!-- Organizing Committee -->
+    <section class="content-section content-section--wide" aria-labelledby="organizers-heading">
+      <h2 id="organizers-heading">Organizing Committee</h2>
+      <div class="card-grid">
+
+        <article class="card">
+          <h3 class="card-name">Sam Moradzadeh</h3>
+          <p class="card-affiliation">Penn State University</p>
+        </article>
+
+        <article class="card">
+          <h3 class="card-name">Andrew&nbsp;M.&nbsp;Sherrill</h3>
+          <p class="card-affiliation">Emory University</p>
+        </article>
+
+        <article class="card">
+          <h3 class="card-name">Rosa&nbsp;I.&nbsp;Arriaga</h3>
+          <p class="card-affiliation">Georgia Institute of Technology</p>
+        </article>
+
+        <article class="card">
+          <h3 class="card-name">Christopher&nbsp;W.&nbsp;Wiese</h3>
+          <p class="card-affiliation">Georgia Institute of Technology</p>
+        </article>
+
+        <article class="card">
+          <h3 class="card-name">Jung Ah (Julie)&nbsp;Lee</h3>
+          <p class="card-affiliation">Georgia Institute of Technology</p>
+        </article>
+
+        <article class="card">
+          <h3 class="card-name">Sadie&nbsp;K.&nbsp;Hogge</h3>
+          <p class="card-affiliation">Georgia Institute of Technology</p>
+        </article>
+
+        <article class="card">
+          <h3 class="card-name">Saeed Abdullah</h3>
+          <p class="card-affiliation">Penn State University</p>
+        </article>
+
+      </div>
+    </section>
+
+  </main>
+
+  <!-- Footer -->
+  <footer class="site-footer">
+    <div class="footer-inner">
+      <span class="footer-copy">&copy; 2026 HAT Workshop.</span>
+      <ul class="footer-links" role="list">
+        <li><a href="/2026/">HAT 2026</a></li>
+        <!-- Past editions will be listed here -->
+      </ul>
+    </div>
+  </footer>
+
+  <script src="/shared/nav.js"></script>
+</body>
+
+</html>

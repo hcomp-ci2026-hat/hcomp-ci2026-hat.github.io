@@ -1,0 +1,37 @@
+{
+  "tracks": [
+    {
+      "name": "Full Papers",
+      "pageLimit": "8 pages + references",
+      "description": "Original research contributions presenting novel methods, systems, or empirical studies."
+    },
+    {
+      "name": "Short Papers",
+      "pageLimit": "4 pages + references",
+      "description": "Preliminary findings, work-in-progress, or provocative position statements."
+    },
+    {
+      "name": "Demo & System Papers",
+      "pageLimit": "2-page extended abstract",
+      "description": "Live demonstrations of working systems, tools, or interactive prototypes."
+    }
+  ],
+  "topics": [
+    "Context-aware and adaptive user interfaces",
+    "Human-robot interaction and collaborative autonomy",
+    "Trust calibration, transparency, and explainability",
+    "Accessibility-first design for diverse populations",
+    "Ethical frameworks for human-centered computing",
+    "Affective and physiological computing",
+    "Privacy-preserving personalization",
+    "Inclusive design methodologies",
+    "Evaluation methods for human-aware systems",
+    "Fairness and bias mitigation in interactive systems"
+  ],
+  "formatting": {
+    "template": "ACM sigconf (double-column)",
+    "anonymity": "Double-blind review. Remove all author-identifying information from submissions.",
+    "submissionFormat": "PDF only",
+    "supplementary": "Optional supplementary materials (e.g., video demos) may be uploaded separately."
+  }
+}

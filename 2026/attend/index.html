@@ -1,0 +1,160 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+
+  <script>
+    (function () {
+      var t = localStorage.getItem('hat-theme');
+      if (t === 'dark' || (!t && window.matchMedia('(prefers-color-scheme:dark)').matches)) {
+        document.documentElement.setAttribute('data-theme', 'dark');
+      }
+    })();
+  </script>
+
+  <title>Attend — HAT 2026</title>
+  <meta name="description"
+    content="Venue, registration, accessibility, and travel information for the HAT 2026 Workshop at Virginia Tech, co-located with HCOMP/CI 2026.">
+
+  <link rel="stylesheet" href="/shared/styles.css">
+  <link rel="stylesheet" href="/shared/print.css" media="print">
+</head>
+
+<body>
+
+  <a href="#main" class="skip-link">Skip to main content</a>
+
+  <!-- Deadline Bar -->
+  <div class="deadline-bar" role="banner" data-deadline="2026-08-07T23:59:00-12:00">
+    <div class="deadline-bar-inner">
+      <span class="deadline-label"><strong>Submission deadline:</strong> August&nbsp;7,&nbsp;2026 &mdash;
+        23:59&nbsp;AoE</span>
+      <span class="deadline-short"><strong>Deadline:</strong> Aug&nbsp;7 AoE</span>
+      <span class="deadline-countdown" aria-live="polite">Calculating…</span>
+    </div>
+  </div>
+
+  <!-- Header -->
+  <header class="site-header">
+    <div class="header-inner">
+      <a href="/2026/" class="site-logo" aria-label="HAT Workshop 2026 — Home">HAT<span
+          class="logo-accent">'26</span></a>
+      <div class="header-right">
+        <button class="mobile-menu-toggle" aria-expanded="false" aria-controls="site-nav"
+          aria-label="Open navigation menu">
+          <svg viewBox="0 0 24 24" aria-hidden="true">
+            <line x1="3" y1="6" x2="21" y2="6" />
+            <line x1="3" y1="12" x2="21" y2="12" />
+            <line x1="3" y1="18" x2="21" y2="18" />
+          </svg>
+        </button>
+        <nav class="site-nav" id="site-nav" aria-label="Primary">
+          <a href="/2026/">Home</a>
+          <a href="/2026/cfp/">Participate</a>
+          <a href="/2026/attend/" aria-current="page">Attend</a>
+          <a href="/2026/organizers/">Organizers</a>
+          <a href="/2026/schedule/">Schedule</a>
+        </nav>
+        <button class="theme-toggle" aria-label="Switch to dark mode">
+          <svg class="icon-light" viewBox="0 0 24 24" aria-hidden="true">
+            <circle cx="12" cy="12" r="5" />
+            <line x1="12" y1="1" x2="12" y2="3" />
+            <line x1="12" y1="21" x2="12" y2="23" />
+            <line x1="4.22" y1="4.22" x2="5.64" y2="5.64" />
+            <line x1="18.36" y1="18.36" x2="19.78" y2="19.78" />
+            <line x1="1" y1="12" x2="3" y2="12" />
+            <line x1="21" y1="12" x2="23" y2="12" />
+            <line x1="4.22" y1="19.78" x2="5.64" y2="18.36" />
+            <line x1="18.36" y1="5.64" x2="19.78" y2="4.22" />
+          </svg>
+          <svg class="icon-dark" viewBox="0 0 24 24" aria-hidden="true" style="display:none">
+            <path d="M21 12.79A9 9 0 1 1 11.21 3 7 7 0 0 0 21 12.79z" />
+          </svg>
+        </button>
+      </div>
+    </div>
+  </header>
+
+  <main id="main">
+
+    <section class="page-title-section">
+      <h1>Attend</h1>
+      <p class="page-subtitle">Everything you need to know about the venue, registration, accessibility, and getting to
+        Virginia Tech.</p>
+    </section>
+
+    <!-- Venue -->
+    <section class="content-section" aria-labelledby="venue-heading">
+      <h2 id="venue-heading">Venue</h2>
+      <p>
+        HAT 2026 will be held at <strong>Virginia Tech Academic Building One</strong> in Alexandria, VA, as part of the
+        co-located <a href="https://hcomp.acm.org/2026/">HCOMP/CI 2026</a> conference. The building is located in the
+        Washington,&nbsp;DC metropolitan area.
+      </p>
+      <dl style="margin-top: var(--space-4);">
+        <div style="display: flex; gap: var(--space-4); margin-bottom: var(--space-3);">
+          <dt style="font-weight: 600; min-width: 6rem;">Building</dt>
+          <dd>Virginia Tech Academic Building One</dd>
+        </div>
+        <div style="display: flex; gap: var(--space-4); margin-bottom: var(--space-3);">
+          <dt style="font-weight: 600; min-width: 6rem;">Address</dt>
+          <dd>3625 Potomac Ave, Alexandria, VA&nbsp;22305</dd>
+        </div>
+        <div style="display: flex; gap: var(--space-4); margin-bottom: var(--space-3);">
+          <dt style="font-weight: 600; min-width: 6rem;">Conference</dt>
+          <dd><a href="https://hcomp.acm.org/2026/" rel="noopener">HCOMP/CI 2026 (Sep 27–30)</a></dd>
+        </div>
+      </dl>
+    </section>
+
+    <!-- Registration -->
+    <section class="content-section" aria-labelledby="registration-heading">
+      <h2 id="registration-heading">Registration</h2>
+      <p>
+        HAT 2026 is a workshop at <strong>HCOMP/CI 2026</strong>. To attend, you must register for the HCOMP/CI
+        conference and select the HAT workshop during registration. Early-bird registration closes
+        <strong>August&nbsp;22,&nbsp;2026</strong>.
+      </p>
+      <div class="hero-actions" style="margin-top: var(--space-4);">
+        <a href="https://hcomp.acm.org/2026/registration.html" class="cta-button cta-primary" target="_blank"
+          rel="noopener noreferrer">Register for HCOMP/CI 2026 →</a>
+      </div>
+    </section>
+
+    <!-- Travel -->
+    <section class="content-section" aria-labelledby="travel-heading">
+      <h2 id="travel-heading">Travel &amp; Logistics</h2>
+
+      <h3>Getting to Alexandria</h3>
+      <p>
+        <strong>By air:</strong> The nearest airports are Ronald Reagan Washington National Airport (DCA), approximately
+        15 minutes away, and Washington Dulles International Airport (IAD), approximately 40 minutes away.
+      </p>
+      <p>
+        <strong>By metro:</strong> The venue is accessible via the Washington Metro system. Check the HCOMP/CI 2026
+        website for the nearest station and walking directions.
+      </p>
+      <p>
+        <strong>By car:</strong> The venue is accessible via I-395 and the George Washington Memorial Parkway. Visitor
+        parking details will be provided by the conference.
+      </p>
+
+    </section>
+
+  </main>
+
+  <footer class="site-footer">
+    <div class="footer-inner">
+      <span class="footer-copy">&copy; 2026 HAT Workshop.</span>
+      <ul class="footer-links" role="list">
+        <li><a href="/2026/">HAT 2026</a></li>
+      </ul>
+    </div>
+  </footer>
+
+  <script src="/shared/nav.js"></script>
+</body>
+
+</html>
