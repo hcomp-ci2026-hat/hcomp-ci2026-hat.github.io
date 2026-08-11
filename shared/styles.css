@@ -7,9 +7,9 @@
    §1  FONT FACES
    ----------------------------------------------------------- */
 @font-face {
-  font-family: 'Space Grotesk';
-  src: url('/fonts/SpaceGrotesk-Variable.woff2') format('woff2');
-  font-weight: 300 700;
+  font-family: 'Roboto';
+  src: url('/fonts/Roboto-Variable.woff2') format('woff2');
+  font-weight: 100 900;
   font-style: normal;
   font-display: swap;
 }
@@ -18,14 +18,6 @@
   font-family: 'Inter';
   src: url('/fonts/Inter-Variable.woff2') format('woff2');
   font-weight: 300 700;
-  font-style: normal;
-  font-display: swap;
-}
-
-@font-face {
-  font-family: 'JetBrains Mono';
-  src: url('/fonts/JetBrainsMono-Variable.woff2') format('woff2');
-  font-weight: 400 700;
   font-style: normal;
   font-display: swap;
 }
@@ -62,9 +54,9 @@
   --color-bar-text: #FFFFFF;
 
   /* — Typography Scale (fluid) — */
-  --font-display: 'Space Grotesk', system-ui, sans-serif;
+  --font-display: 'Roboto', system-ui, sans-serif;
   --font-body: 'Inter', system-ui, sans-serif;
-  --font-mono: 'JetBrains Mono', 'Fira Code', monospace;
+  --font-mono: 'Roboto', system-ui, sans-serif;
 
   --text-xs: clamp(0.7rem, 0.65rem + 0.25vw, 0.8rem);
   --text-sm: clamp(0.8rem, 0.75rem + 0.25vw, 0.9rem);
