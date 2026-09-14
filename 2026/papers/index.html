@@ -1,0 +1,239 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+
+  <script>
+    (function () {
+      var t = localStorage.getItem('hat-theme');
+      if (t === 'dark' || (!t && window.matchMedia('(prefers-color-scheme:dark)').matches)) {
+        document.documentElement.setAttribute('data-theme', 'dark');
+      }
+    })();
+  </script>
+
+  <title>Accepted Papers — HAT 2026</title>
+  <meta name="description"
+    content="Explore four accepted papers at HAT 2026: two position papers and two full papers on human-AI teaming, with authors, abstracts, and full-text PDFs.">
+
+  <link rel="stylesheet" href="/shared/styles.css?v=20260914-papers-2">
+  <link rel="stylesheet" href="/shared/print.css" media="print">
+</head>
+
+<body>
+
+  <a href="#main" class="skip-link">Skip to main content</a>
+
+  <header class="site-header">
+    <div class="header-inner">
+      <a href="/2026/" class="site-logo" aria-label="HAT Workshop 2026 — Home">HAT<span
+          class="logo-accent">'26</span></a>
+      <div class="header-right">
+        <button class="mobile-menu-toggle" aria-expanded="false" aria-controls="site-nav"
+          aria-label="Open navigation menu">
+          <svg viewBox="0 0 24 24" aria-hidden="true">
+            <line x1="3" y1="6" x2="21" y2="6" />
+            <line x1="3" y1="12" x2="21" y2="12" />
+            <line x1="3" y1="18" x2="21" y2="18" />
+          </svg>
+        </button>
+        <nav class="site-nav" id="site-nav" aria-label="Primary">
+          <a href="/2026/">Home</a>
+          <a href="/2026/cfp/">Participate</a>
+          <a href="/2026/papers/" aria-current="page">Accepted Papers</a>
+          <a href="/2026/attend/">Attend</a>
+          <a href="/2026/organizers/">Organizers</a>
+          <a href="/2026/schedule/">Schedule</a>
+        </nav>
+        <button class="theme-toggle" aria-label="Switch to dark mode">
+          <svg class="icon-light" viewBox="0 0 24 24" aria-hidden="true">
+            <circle cx="12" cy="12" r="5" />
+            <line x1="12" y1="1" x2="12" y2="3" />
+            <line x1="12" y1="21" x2="12" y2="23" />
+            <line x1="4.22" y1="4.22" x2="5.64" y2="5.64" />
+            <line x1="18.36" y1="18.36" x2="19.78" y2="19.78" />
+            <line x1="1" y1="12" x2="3" y2="12" />
+            <line x1="21" y1="12" x2="23" y2="12" />
+            <line x1="4.22" y1="19.78" x2="5.64" y2="18.36" />
+            <line x1="18.36" y1="5.64" x2="19.78" y2="4.22" />
+          </svg>
+          <svg class="icon-dark" viewBox="0 0 24 24" aria-hidden="true" style="display:none">
+            <path d="M21 12.79A9 9 0 1 1 11.21 3 7 7 0 0 0 21 12.79z" />
+          </svg>
+        </button>
+      </div>
+    </div>
+  </header>
+
+  <main id="main">
+
+    <section class="page-title-section">
+      <h1>Accepted Papers</h1>
+      <p class="page-subtitle">Four contributions to the conversation on human–AI teaming at HAT 2026.</p>
+    </section>
+
+    <section class="content-section" aria-labelledby="papers-heading">
+      <h2 id="papers-heading">The accepted contributions</h2>
+      <p>Two position papers and two full papers explore the boundaries, behavior, and evaluation of human–AI
+        collaboration. Read the abstracts below and open each paper to explore the authors’ work.</p>
+
+      <div class="paper-list">
+
+        <article class="paper-card" id="paper-01" aria-labelledby="paper-01-title">
+          <div class="paper-heading">
+            <span class="paper-number">Paper 01</span>
+            <span class="badge badge--muted">Position paper</span>
+          </div>
+          <h3 id="paper-01-title">Drawing the Cognitive Automation Boundary in Human-AI Teaming</h3>
+          <p class="paper-subtitle">A position paper on what AI should automate in knowledge work</p>
+          <p class="paper-authors">Jawwad Shadman Siddique</p>
+          <p class="paper-affiliations">Oregon State University</p>
+          <details class="paper-abstract">
+            <summary>Abstract</summary>
+            <p>Generative AI makes function allocation feel deceptively simple: if a model can perform an activity faster,
+              the activity appears ready for automation. We argue that capability is the wrong primary criterion for
+              knowledge work. Some activities are epistemically critical because personally reasoning through them builds
+              or exercises the mental models, judgment, and transferable expertise a human will need later; other
+              activities mainly instantiate an already-formed idea. We introduce epistemic criticality, E(a|H), as the
+              value of personally performing activity a for a particular human knowledge state H, and define the Cognitive
+              Automation Boundary as the dynamic line separating cognition that should remain human-owned from execution
+              that can be delegated. We distinguish an epistemic core, an epistemic-support layer, and an execution shell;
+              show why the boundary must move with expertise; and propose a small decision framework combining epistemic
+              criticality, execution burden, and automation reliability. Our position is that Human-AI teaming should
+              maximize useful automation subject to preserving the cognitive operations required for future independent
+              competence, supervision, and learning.</p>
+          </details>
+          <div class="paper-actions">
+            <a class="cta-button cta-secondary" href="../data/papers/siddique-cognitive-automation-boundary.pdf"
+              aria-label="Read Drawing the Cognitive Automation Boundary in Human-AI Teaming (PDF)">Read Paper (PDF)</a>
+            <span class="paper-file-meta">4 pages</span>
+          </div>
+        </article>
+
+        <article class="paper-card" id="paper-02" aria-labelledby="paper-02-title">
+          <div class="paper-heading">
+            <span class="paper-number">Paper 02</span>
+            <span class="badge badge--muted">Position paper</span>
+          </div>
+          <h3 id="paper-02-title">Toward a Behavioral Science of Human-AI Teaming</h3>
+          <p class="paper-subtitle">Diagnosing Collaboration Health as a Dynamic Relationship</p>
+          <p class="paper-authors">Manaswi Saha</p>
+          <p class="paper-affiliations">Accenture Labs</p>
+          <details class="paper-abstract">
+            <summary>Abstract</summary>
+            <p>Human-AI collaboration is a dynamic relationship—one that forms, deepens, plateaus, and dissolves along
+              observable behavioral trajectories. My position is that the teaming construct, as currently used, is aimed
+              at the wrong unit of analysis to diagnose it. Team cognition, including its explicitly dynamic strands,
+              theorizes the emergence of collective states among members who reciprocate: shared mental models,
+              transactive memory, closed-loop coordination. Yet the two trajectories that most often decide enterprise AI
+              deployments are neither collective nor reciprocal—they are the individual practice of one worker addressed
+              to a partner that does not reciprocate: whether that worker is deepening their practice, and whether they
+              are quietly disengaging. Those belong to expertise-development and technology-discontinuance theory, not to
+              team cognition. To make this concrete I put a candidate instrument on the table: the HAI Behavioral Lens,
+              four telemetry-observable behavioral axes—delegation, steering, abandonment, and deepening. Two map cleanly
+              onto teaming vocabulary; two fall outside it, and they are the two that most often decide whether a
+              deployment holds. That asymmetry has a methodological consequence: the right first question is not “are
+              they a team?” but “is this person working well with AI at all?”—and the right output is not a score but a
+              collaboration health profile read across the axes over time.</p>
+          </details>
+          <div class="paper-actions">
+            <a class="cta-button cta-secondary" href="../data/papers/saha-behavioral-science-human-ai-teaming.pdf"
+              aria-label="Read Toward a Behavioral Science of Human-AI Teaming (PDF)">Read Paper (PDF)</a>
+            <span class="paper-file-meta">4 pages</span>
+          </div>
+        </article>
+
+        <article class="paper-card" id="paper-03" aria-labelledby="paper-03-title">
+          <div class="paper-heading">
+            <span class="paper-number">Paper 03</span>
+            <span class="badge badge--muted">Full paper</span>
+          </div>
+          <h3 id="paper-03-title">Teaming Needs Scoreboard: Expert–AI Collaboration in Finance Is Delegation, Not Teamwork</h3>
+          <p class="paper-authors">Jing Li, Jinliang Li</p>
+          <p class="paper-affiliations">Institute for Industrial Innovation and Finance, Tsinghua University</p>
+          <details class="paper-abstract">
+            <summary>Abstract</summary>
+            <p>“Human–AI teaming” has become the default vocabulary for expert–AI collaboration, and is increasingly used
+              to justify design and procurement decisions in domains far from the crews it was built on. We found that
+              the construct carries three unstated preconditions: jointly attributable outcomes, feedback fast enough to
+              calibrate reliance within the working life of the collaboration, and accountability that can genuinely be
+              shared. We test them against expert financial judgment, a domain that adopts AI advisors at scale and,
+              unusually, audits every decision and every outcome. First, we define the calibration horizon <var>τ</var>,
+              the calendar time before outcome evidence alone can establish that an AI advisor helps, and evaluate it
+              across twelve professions using power analysis and the statistics of Sharpe-ratio inference. It ranges from
+              about a week in flight operations to 196 years for a discretionary equity portfolio manager, while a
+              two-hundred-manager firm running a randomised-withholding programme reaches the same evidence in about four.
+              Identification is available to the institution and not to the individual, which inverts the relation the
+              construct assumes, since its prescriptions are addressed to teammates. Second, we show that the dyad is the
+              limited unit of analysis. When <var>M</var> experts share one advisor, privately optimal reliance cuts each
+              expert’s squared error by 67% while making the consensus 22× worse, and we derive a correlation budget of
+              roughly <var>M</var>/4 independently-erring models. We conclude that in this domain “teaming” describes the
+              work less accurately than it redistributes, in language, an accountability that law makes non-delegable, and
+              we propose delegation under agency, whose four primitives are contractible rather than psychological.</p>
+          </details>
+          <div class="paper-actions">
+            <a class="cta-button cta-secondary" href="../data/papers/li-teaming-needs-scoreboard.pdf"
+              aria-label="Read Teaming Needs Scoreboard: Expert–AI Collaboration in Finance Is Delegation, Not Teamwork (PDF)">Read Paper (PDF)</a>
+            <span class="paper-file-meta">7 pages</span>
+          </div>
+        </article>
+
+        <article class="paper-card" id="paper-04" aria-labelledby="paper-04-title">
+          <div class="paper-heading">
+            <span class="paper-number">Paper 04</span>
+            <span class="badge badge--muted">Full paper</span>
+          </div>
+          <h3 id="paper-04-title">Statistical Foundations for Credible Human–AI Teaming Claims</h3>
+          <p class="paper-subtitle">TEAM-Audit: A Two-Endpoint Audit of Margins</p>
+          <p class="paper-authors">Hamed Khosravi<sup>1</sup>, Xiaoming Huo<sup>2</sup></p>
+          <p class="paper-affiliations"><sup>1</sup> Georgia Institute of Technology
+            (H. Milton Stewart School of Industrial and Systems Engineering)<br>
+            <sup>2</sup> Georgia Institute of Technology</p>
+          <details class="paper-abstract">
+            <summary>Abstract</summary>
+            <p>Human–AI decision systems are often called “teams” when artificial intelligence (AI) assistance improves
+              human performance. That comparison cannot carry the label: a system can help the people using it and still
+              be worse than the AI working alone. We propose TEAM-Audit, a two-baseline audit for the performance version
+              of the claim: evaluate the final, frozen system on data not used to build it; compare it separately with
+              human-only and with AI-only performance; and only when both comparisons are supported with uncertainty call
+              the result performance complementarity — “beats both.” For systems that route cases between a human and an
+              AI, the audit corrects historical logs that record only the acting party’s outcome, and it reports human
+              workload beside accuracy. In simulation, ignoring development-stage uncertainty produced false “beats both”
+              verdicts in 0.504 of null replications, and reusing one sample to both select and evaluate a policy produced
+              0.103. Reanalyzing a public human–AI study, all 14 assisted conditions beat both baselines when the study’s
+              questions are treated as fixed, but only 2 of 14 when the uncertainty also covers the broader item population
+              those questions stand in for. The verdict turns on a choice that is almost never stated.</p>
+          </details>
+          <div class="paper-actions">
+            <a class="cta-button cta-secondary" href="../data/papers/khosravi-team-audit.pdf"
+              aria-label="Read Statistical Foundations for Credible Human–AI Teaming Claims (PDF)">Read Paper (PDF)</a>
+            <span class="paper-file-meta">9 pages</span>
+          </div>
+        </article>
+
+      </div>
+    </section>
+
+    <section class="content-section" aria-labelledby="discussion-heading">
+      <h2 id="discussion-heading">Join the discussion</h2>
+      <p>Explore the planned paper feedback sessions and group discussions in the workshop schedule.</p>
+      <a href="/2026/schedule/" class="cta-button cta-secondary">View Schedule →</a>
+    </section>
+
+  </main>
+
+  <footer class="site-footer">
+    <div class="footer-inner">
+      <span class="footer-copy">&copy; 2026 HAT Workshop.</span>
+      <ul class="footer-links" role="list">
+        <li><a href="/2026/">HAT 2026</a></li>
+      </ul>
+    </div>
+  </footer>
+
+  <script src="/shared/nav.js"></script>
+</body>
+
+</html>

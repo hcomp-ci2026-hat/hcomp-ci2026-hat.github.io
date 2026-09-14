@@ -18,6 +18,8 @@
     "address": "3625 Potomac Ave, Alexandria, VA 22305, USA",
     "conferenceVenueUrl": "https://hcomp.acm.org/2026/"
   },
-  "submissionLink": "https://openreview.net/group?id=HAT2026",
-  "registrationLink": "https://hcomp.acm.org/2026/"
+  "submissionStatus": "closed",
+  "submissionLink": null,
+  "rsvpLink": "https://forms.gle/wQb7F82hEGXhg1jz5",
+  "registrationLink": "https://hcomp.acm.org/2026/registration.html"
 }

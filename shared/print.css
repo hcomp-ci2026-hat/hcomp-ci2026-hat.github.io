@@ -6,7 +6,6 @@
 @media print {
   /* Hide interactive / navigational elements */
   .site-header,
-  .deadline-bar,
   .site-footer,
   .theme-toggle,
   .mobile-menu-toggle,

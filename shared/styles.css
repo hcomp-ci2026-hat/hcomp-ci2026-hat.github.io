@@ -49,10 +49,6 @@
   --color-link: var(--color-primary);
   --color-link-hover: var(--color-primary-light);
 
-  /* — Deadline Bar — */
-  --color-bar-bg: var(--color-primary);
-  --color-bar-text: #FFFFFF;
-
   /* — Typography Scale (fluid) — */
   --font-display: 'Roboto', system-ui, sans-serif;
   --font-body: 'Inter', system-ui, sans-serif;
@@ -113,9 +109,6 @@
 
   --color-link: var(--color-primary-light);
   --color-link-hover: #AEA8F4;
-
-  --color-bar-bg: #2D2D50;
-  --color-bar-text: #F0EDE6;
 
   --shadow-sm: 0 1px 3px rgba(0, 0, 0, 0.3);
   --shadow-md: 0 4px 12px rgba(0, 0, 0, 0.4);
@@ -257,75 +250,6 @@ hr {
 }
 
 /* -----------------------------------------------------------
-   §6  DEADLINE BAR (Sticky Milestone)
-   ----------------------------------------------------------- */
-.deadline-bar {
-  position: sticky;
-  top: 0;
-  z-index: 100;
-  background: var(--color-bar-bg);
-  color: var(--color-bar-text);
-  text-align: center;
-  padding: var(--space-3) var(--space-4);
-  font-family: var(--font-mono);
-  font-size: var(--text-sm);
-  font-weight: 500;
-  letter-spacing: 0.02em;
-  border-bottom: 2px solid var(--color-accent);
-}
-
-.deadline-bar a {
-  color: var(--color-accent);
-  font-weight: 700;
-}
-
-.deadline-bar-inner {
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  gap: var(--space-4);
-  max-width: var(--max-width);
-  margin: 0 auto;
-  flex-wrap: wrap;
-}
-
-.deadline-label {
-  display: inline;
-}
-
-.deadline-countdown {
-  background: rgba(255, 255, 255, 0.15);
-  padding: var(--space-1) var(--space-3);
-  border-radius: var(--radius-sm);
-  font-weight: 700;
-  white-space: nowrap;
-}
-
-[data-theme="dark"] .deadline-countdown {
-  background: rgba(255, 255, 255, 0.08);
-}
-
-/* Mobile: shorter text */
-.deadline-short {
-  display: none;
-}
-
-@media (max-width: 600px) {
-  .deadline-label {
-    display: none;
-  }
-
-  .deadline-short {
-    display: inline;
-  }
-
-  .deadline-bar {
-    font-size: var(--text-xs);
-    padding: var(--space-2) var(--space-3);
-  }
-}
-
-/* -----------------------------------------------------------
    §7  SITE HEADER & NAVIGATION
    ----------------------------------------------------------- */
 .site-header {
@@ -445,7 +369,7 @@ hr {
   stroke-linecap: round;
 }
 
-@media (max-width: 768px) {
+@media (max-width: 900px) {
   .mobile-menu-toggle {
     display: flex;
   }
@@ -682,6 +606,105 @@ hr {
   max-width: 55ch;
 }
 
+/* Accepted papers */
+.paper-list {
+  display: grid;
+  gap: var(--space-6);
+  margin-top: var(--space-8);
+}
+
+.paper-card {
+  background: var(--color-surface);
+  border: 1px solid var(--color-border);
+  border-left: 3px solid var(--color-accent);
+  border-radius: var(--radius-md);
+  padding: var(--space-6);
+  overflow-wrap: anywhere;
+  break-inside: avoid;
+}
+
+.paper-heading {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: space-between;
+  gap: var(--space-3);
+  margin-bottom: var(--space-4);
+}
+
+.paper-number {
+  color: var(--color-accent);
+  font-family: var(--font-display);
+  font-size: var(--text-sm);
+  font-weight: 600;
+}
+
+.paper-card h3 {
+  font-size: var(--text-xl);
+  margin-top: 0;
+  margin-bottom: var(--space-3);
+}
+
+.paper-subtitle,
+.paper-affiliations,
+.paper-file-meta {
+  color: var(--color-muted);
+}
+
+.paper-subtitle {
+  font-size: var(--text-base);
+  margin-bottom: var(--space-4);
+}
+
+.paper-authors {
+  font-weight: 600;
+  margin-bottom: var(--space-1);
+}
+
+.paper-affiliations {
+  font-size: var(--text-sm);
+  margin-bottom: var(--space-5);
+}
+
+.paper-authors sup,
+.paper-affiliations sup {
+  font-size: 0.75em;
+}
+
+.paper-abstract {
+  border-top: 1px solid var(--color-border);
+  border-bottom: 1px solid var(--color-border);
+}
+
+.paper-abstract summary {
+  color: var(--color-link);
+  cursor: pointer;
+  font-weight: 600;
+  padding: var(--space-3) 0;
+  min-height: 44px;
+}
+
+.paper-abstract summary:hover {
+  color: var(--color-link-hover);
+}
+
+.paper-abstract p {
+  max-width: 80ch;
+  margin: 0 0 var(--space-5);
+}
+
+.paper-actions {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  gap: var(--space-4);
+  margin-top: var(--space-5);
+}
+
+.paper-file-meta {
+  font-size: var(--text-sm);
+}
+
 /* -----------------------------------------------------------
    §11  KEY DATES
    ----------------------------------------------------------- */
@@ -716,6 +739,16 @@ hr {
 .date-event {
   font-weight: 500;
   color: var(--color-heading);
+}
+
+.date-past .date-label,
+.date-past .date-event {
+  color: var(--color-muted);
+  font-weight: 400;
+}
+
+.date-event .badge {
+  margin-left: var(--space-2);
 }
 
 @media (max-width: 600px) {
