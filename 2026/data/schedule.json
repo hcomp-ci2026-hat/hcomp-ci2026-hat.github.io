@@ -3,24 +3,29 @@
   "date": "September 27, 2026",
   "timezone": "Eastern Time",
   "sessions": [
-    { "time": "9:00 AM – 9:30 AM", "title": "Opening Remarks", "type": "ceremony" },
-    { "time": "9:30 AM – 10:30 AM", "title": "Keynote Speaker 1", "speaker": "TBD", "type": "keynote" },
+    { "time": "9:00 AM – 9:30 AM", "title": "Opening Remarks and Participant Introductions", "type": "ceremony" },
+    {
+      "time": "9:30 AM – 10:30 AM",
+      "title": "Keynote Speaker 1: Dr. Christopher Wiese",
+      "speaker": "Associate Professor, School of Psychology, Georgia Institute of Technology",
+      "type": "keynote"
+    },
     { "time": "10:30 AM – 11:00 AM", "title": "Speed Networking and Coffee Break", "type": "break" },
     {
       "time": "11:00 AM – 12:30 PM",
-      "title": "Workshop Paper Feedback Sessions",
+      "title": "Research Exchange and Paper Discussions",
       "type": "papers",
       "format": [
-        "3-minute Lightning Talk (per paper)",
-        "Paper group roundtable discussion (2 × 20-minute sessions)",
-        "Presenting feedback summary"
+        "3-minute Lightning Talks from paper authors",
+        "Small-group discussions connecting the papers with attendees’ related work and perspectives",
+        "Brief group takeaways and feedback"
       ],
       "note": "Five accepted papers, with author information, abstracts, and full PDFs on the Accepted Papers page.",
       "papersUrl": "/2026/papers/"
     },
     { "time": "12:30 PM – 1:30 PM", "title": "Networking Lunch with Workshop Attendees", "type": "break" },
     {
-      "time": "1:30 PM – 3:30 PM",
+      "time": "1:30 PM – 3:00 PM",
       "title": "Group Discussion and Brainstorming with Attendees",
       "type": "panel",
       "topics": [
@@ -30,8 +35,13 @@
         "Accountability, agency, and asymmetry in human–AI teams"
       ]
     },
-    { "time": "3:30 PM – 3:45 PM", "title": "Coffee Break", "type": "break" },
-    { "time": "3:45 PM – 4:45 PM", "title": "Keynote Speaker 2", "speaker": "TBD", "type": "keynote" },
-    { "time": "4:45 PM – 5:00 PM", "title": "Closing Remarks and Best Paper Award", "type": "ceremony" }
+    { "time": "3:00 PM – 3:30 PM", "title": "Coffee Break and Networking", "type": "break" },
+    {
+      "time": "3:30 PM – 4:30 PM",
+      "title": "Keynote Speaker 2: Dr. Andrew M. Sherrill",
+      "speaker": "Assistant Professor, Department of Psychiatry and Behavioral Sciences, Emory University",
+      "type": "keynote"
+    },
+    { "time": "4:30 PM – 5:00 PM", "title": "Closing Remarks and Best Paper Award", "type": "ceremony" }
   ]
 }
