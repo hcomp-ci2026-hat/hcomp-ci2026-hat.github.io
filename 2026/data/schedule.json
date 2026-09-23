@@ -25,8 +25,14 @@
     },
     { "time": "12:30 PM – 1:30 PM", "title": "Networking Lunch with Workshop Attendees", "type": "break" },
     {
-      "time": "1:30 PM – 3:00 PM",
-      "title": "Group Discussion and Brainstorming with Attendees",
+      "time": "1:30 PM – 2:30 PM",
+      "title": "Keynote Speaker 2: Dr. Andrew M. Sherrill",
+      "speaker": "Assistant Professor, Department of Psychiatry and Behavioral Sciences, Emory University",
+      "type": "keynote"
+    },
+    {
+      "time": "2:30 PM – 3:00 PM",
+      "title": "Group Discussion and Brainstorming with Attendees I",
       "type": "panel",
       "topics": [
         "What does \"teaming\" let researchers, designers, and end-users do, and where does it mislead them?",
@@ -36,12 +42,7 @@
       ]
     },
     { "time": "3:00 PM – 3:30 PM", "title": "Coffee Break and Networking", "type": "break" },
-    {
-      "time": "3:30 PM – 4:30 PM",
-      "title": "Keynote Speaker 2: Dr. Andrew M. Sherrill",
-      "speaker": "Assistant Professor, Department of Psychiatry and Behavioral Sciences, Emory University",
-      "type": "keynote"
-    },
-    { "time": "4:30 PM – 5:00 PM", "title": "Closing Remarks and Best Paper Award", "type": "ceremony" }
+    { "time": "3:30 PM – 4:00 PM", "title": "Group Discussion and Brainstorming with Attendees II", "type": "panel" },
+    { "time": "4:00 PM – 4:30 PM", "title": "Closing Remarks and Best Paper Award", "type": "ceremony" }
   ]
 }

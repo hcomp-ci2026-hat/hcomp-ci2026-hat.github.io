@@ -7,7 +7,7 @@ X-WR-CALNAME:HAT Workshop 2026
 X-WR-TIMEZONE:America/New_York
 BEGIN:VEVENT
 DTSTART;TZID=America/New_York:20260927T090000
-DTEND;TZID=America/New_York:20260927T170000
+DTEND;TZID=America/New_York:20260927T163000
 SUMMARY:HAT 2026 — Workshop on Human-AI Teaming
 DESCRIPTION:Full-day workshop on Human-AI Teaming\, co-located with HCOMP/CI 2026.\n\nVenue: Virginia Tech\, Academic Building One\nMore info: https://hat-workshop.org/2026/
 LOCATION:Virginia Tech Academic Building One\, 3625 Potomac Ave\, Alexandria\, VA 22305\, USA
