@@ -6,8 +6,8 @@
     { "time": "9:00 AM – 9:30 AM", "title": "Opening Remarks and Participant Introductions", "type": "ceremony" },
     {
       "time": "9:30 AM – 10:30 AM",
-      "title": "Keynote Speaker 1: Dr. Christopher Wiese",
-      "speaker": "Associate Professor, School of Psychology, Georgia Institute of Technology",
+      "title": "Still a Teammate: Perceived Membership and the Science of Human-AI Collaboration",
+      "speaker": "Keynote Speaker 1: Dr. Christopher Wiese · Associate Professor, School of Psychology, Georgia Institute of Technology",
       "type": "keynote"
     },
     { "time": "10:30 AM – 11:00 AM", "title": "Speed Networking and Coffee Break", "type": "break" },
@@ -26,8 +26,8 @@
     { "time": "12:30 PM – 1:30 PM", "title": "Networking Lunch with Workshop Attendees", "type": "break" },
     {
       "time": "1:30 PM – 2:30 PM",
-      "title": "Keynote Speaker 2: Dr. Andrew M. Sherrill",
-      "speaker": "Assistant Professor, Department of Psychiatry and Behavioral Sciences, Emory University",
+      "title": "Who Holds the Reins? Farmers, Centaurs, and Reverse Centaurs in Human-AI Systems",
+      "speaker": "Keynote Speaker 2: Dr. Andrew M. Sherrill · Assistant Professor, Department of Psychiatry and Behavioral Sciences, Emory University",
       "type": "keynote"
     },
     {
