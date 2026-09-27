@@ -43,6 +43,6 @@
     },
     { "time": "3:00 PM – 3:30 PM", "title": "Coffee Break and Networking", "type": "break" },
     { "time": "3:30 PM – 4:00 PM", "title": "Group Discussion and Brainstorming with Attendees II", "type": "panel" },
-    { "time": "4:00 PM – 4:30 PM", "title": "Closing Remarks and Best Paper Award", "type": "ceremony" }
+    { "time": "4:00 PM – 4:30 PM", "title": "Closing Remarks and Workshop Wrap-Up", "type": "ceremony" }
   ]
 }
